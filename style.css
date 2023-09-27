@@ -1,0 +1,357 @@
+* {
+  font-family: "Roboto Slab", serif;
+}
+body {
+  background-color: #003247;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* header */
+.header {
+  margin-top: 60px;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://free4kwallpapers.com/uploads/originals/2019/01/30/fantasy-d-space-wallpaper.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* about page */
+nav {
+  width: 90%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* nav-links home */
+.nav-links {
+  position: absolute;
+  bottom: 90%;
+}
+
+.nav-links ul li {
+  float: left;
+  list-style: none;
+  display: inline;
+  left: 80%;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* transition when hovered mouse */
+.nav-links ul li::after {
+  content: "";
+  height: 2px;
+  width: 0%; /* set to 0 so that the transition can be seen */
+  background: aqua;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+.text-box {
+  width: 100%;
+  color: white;
+  position: absolute;
+}
+
+.text-box h1 {
+  position: absolute;
+  top: 64%;
+  left: 8px;
+  font-family: "Roboto Slab", serif;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.text-box p {
+  position: absolute;
+  top: 70%;
+  font-family: "Roboto Slab", serif;
+  font-size: large;
+  color: white;
+  margin: auto;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.hero-btn {
+  width: 100px;
+  margin-top: 41%;
+  margin-left: 20px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  border: 1px solid aqua;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bolder;
+  background: transparent;
+  position: relative;
+}
+.hero-btn:hover {
+  border: 1px solid whitesmoke;
+  background: #4a93b0;
+  transition: 0.5s;
+}
+
+/* Cosmic Phenomena */
+.cosmic {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+p {
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+  padding: 10px;
+}
+.row {
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.space {
+  flex-basis: 30%;
+  background: #1b546b;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px 0px aqua;
+}
+.space {
+  transition: 1s;
+}
+
+.space:hover {
+  background-color: #356478;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+/* planet */
+.planet {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.planet-col {
+  width: 100%;
+  background-image: url(https://www.spaceconnectonline.com.au/images/outer-space_new-planets_sc.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* galaxies */
+.galaxies {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.galaxies img {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+/* footer */
+.footer h4,
+h5 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* about page */
+.sub-header {
+  height: 60vh;
+  width: 100%;
+  margin-top: 60px;
+  background-image: url(https://lh3.googleusercontent.com/9zE3StG50FuHs9PCo6kMTIhWKyIc3vJ2JqxPZEgaKc8WQ2vzAyWR4wqYYhMZ7zkhc0C893COYflGKt70Sb15e4gg7eI=w640-h400-e365-rj-sc0x00ffffff);
+  background-position: center;
+  background-size: cover;
+}
+.sub-header h1 {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.about {
+  width: 90%;
+  text-align: center;
+  margin: 45px;
+}
+.about-col img {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: -1%;
+  margin-bottom: -2%;
+}
+
+.explore {
+  text-decoration: none;
+  text-align: center;
+  color: aqua;
+  font-size: 15px;
+  font-weight: 300;
+  border: 1px solid white;
+}
+
+.explore {
+  background-color: #003247;
+  transition: 1s;
+}
+
+.explore:hover {
+  background-color: #4a93b0;
+}
+
+.footer h4 {
+  text-align: center;
+  padding: 3px;
+  color: white;
+}
+
+/* gallery */
+
+body {
+  background-color: #003247;
+}
+.title {
+  display: none;
+}
+
+.gallery {
+  background-color: #1b546b;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid aqua;
+  border-radius: 4px;
+  margin-top: -15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  overflow: hidden; /* The overflow: hidden; property used to specify what happens if content overflows an element's box */
+  box-shadow: 0px 0px 10px 0px aqua;
+}
+/* gallery images */
+.styled-image {
+  width: 100%;
+  height: auto;
+}
+
+.styled-image {
+  transform: scale(0.8);
+  transition: transform 0.5s ease;
+}
+
+.styled-image:hover {
+  transform: scale(1);
+}
+
+/* interesting facts */
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#back-button {
+  background-color: #003247;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  /* Add transition */
+  transition: 0.5s;
+}
+
+#back-button:hover {
+  background-color: #1b546b;
+}
+
+/* interesting facts */
+.Facts,
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container h4,
+.Facts h1 {
+  margin-bottom: 20px;
+}
+
+.Facts ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.Facts {
+  margin: 60px 23px;
+  padding: 30px;
+  background-color: #1b546b;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px aqua;
+}
